@@ -1,0 +1,59 @@
+/* DESKTOP VIEW */
+
+#site-title {
+	color: black;
+	font-size: 2em;
+}
+
+#header-nav {
+	background-color: #64CCB7;
+}
+.navbar-header h2 { /* Restaurant name */
+    padding-left: 15px;
+  }
+#nav-list {
+  border-color: black;
+  padding: 0px;
+}
+#nav-list li {
+	color: black;
+	padding: 5px 0px;
+	border-style: hidden solid solid solid;
+	border-color: black;
+	border-width: thin;
+	background-color: #678A83;
+}
+#toggle-btn {
+	margin: 18px 8px;
+	border-color: black;
+}
+#toggle-btn .icon-bar {
+	background-color: black;
+}
+#menu-title {
+	padding-bottom: 15px;
+	border-bottom-style: hidden;
+}
+#menu-text-container {
+	width: 100%;
+}
+.menu-text {
+	padding: 15px;
+	background-color: #C9FFF4;
+	margin: 15px 5px;
+}
+.menu-text h3 {
+	margin-top: 0px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+#menu-text-container {
+	width: 100%;
+	
+}
+.menu-text {
+	margin: 15px 40px;
+}
+}
